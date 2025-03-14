@@ -1,0 +1,17 @@
+.aboutSection {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #3498DB ;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
