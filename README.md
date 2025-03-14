@@ -1,4 +1,4 @@
-# Khalid Alao - Developer Portfolio 🌟  
+# Khalid Alao - Developer Portfolio 
 
 A professional developer portfolio showcasing my technical skills, projects, and growth journey. 
 
