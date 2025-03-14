@@ -6,7 +6,7 @@ A professional developer portfolio showcasing my technical skills, projects, and
 ### Frontend  
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
 ![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=react-router&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+
 
 ### Styling  
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
