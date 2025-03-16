@@ -29,7 +29,7 @@ Hosted on GitHub Pages:
 
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KhalidAlao)  
-📧 Email: [khalid@example.com](mailto:khalidalao30@gmail.com)  
+📧 Email: [khalidalao30@gmail.com](mailto:khalidalao30@gmail.com)  
 
 
 
