@@ -15,13 +15,6 @@ A professional developer portfolio showcasing my technical skills, projects, and
 ### Deployment  
 ![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-222222?logo=github&logoColor=white)
 
-## 📦 Installation  
-1. Clone repository:  
-`git clone https://github.com/KhalidAlao/updated-portfolio.git`  
-2. Install dependencies:  
-`npm install`  
-3. Start development server:  
-`npm start`
 
 ##  Deployment  
 Hosted on GitHub Pages:  
