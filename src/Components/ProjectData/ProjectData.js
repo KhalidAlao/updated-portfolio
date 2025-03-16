@@ -10,7 +10,7 @@ const ProjectData = [
     {
       title: "Snake Game",
       description: "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake with arrow keys, eat food to grow, and avoid colliding with walls or yourself. Features score tracking, a restart button, and smooth gameplay.",
-      image: "https://ibb.co/rCXK1KB",
+      image: "https://i.ibb.co/DxjPSPB/Screenshot-2025-03-16-at-09-11-07.png",
       githubLink: "https://github.com/KhalidAlao/Snake-Game",
       demoLink: " https://khalidalao.github.io/Snake-Game" 
     }
