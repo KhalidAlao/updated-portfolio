@@ -6,6 +6,14 @@ const ProjectData = [
       githubLink: "https://github.com/KhalidAlao/breathwork-guide",
       demoLink: "https://khalidalao.github.io/breathwork-guide" 
     },
+
+    {
+      title: "Snake Game",
+      description: "A classic Snake Game built with HTML, CSS, and JavaScript. Control the snake with arrow keys, eat food to grow, and avoid colliding with walls or yourself. Features score tracking, a restart button, and smooth gameplay.",
+      image: "https://ibb.co/rCXK1KB",
+      githubLink: "https://github.com/KhalidAlao/Snake-Game",
+      demoLink: " https://khalidalao.github.io/Snake-Game" 
+    }
     // Add more projects here when built
    
   ];
