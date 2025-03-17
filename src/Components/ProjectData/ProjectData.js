@@ -13,8 +13,16 @@ const ProjectData = [
       image: "https://i.ibb.co/DxjPSPB/Screenshot-2025-03-16-at-09-11-07.png",
       githubLink: "https://github.com/KhalidAlao/Snake-Game",
       demoLink: " https://khalidalao.github.io/Snake-Game" 
+    },
+
+    {
+      title: "JavaScript Calculator",
+      description: "A calculator built with JavaScript, HTML, and CSS. Features basic arithmetic operations (+, -, ×, ÷), decimal support, and a clean interface.",
+      image: "https://i.ibb.co/NdhDSvWS/Screenshot-2025-03-16-at-12-52-23.png",
+      githubLink: "https://github.com/KhalidAlao/Javascript-Calculator",
+      demoLink: " https://khalidalao.github.io/Javascript-Calculator" 
     }
-    // Add more projects here when built
+    
    
   ];
   
