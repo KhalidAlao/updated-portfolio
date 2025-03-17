@@ -1,42 +1,71 @@
 .hero {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: white;
-    padding: 2rem 1rem;
     text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    margin: 0 0 1.5rem 0;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-.button {
-    background-color: #ff6f61;
-    border: none;
-    padding: 0.8rem 1.5rem;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: white;
-    font-size: 1.1rem;
+    border-radius: 12px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 4px;
-    transition: transform 0.2s ease, background-color 0.3s ease;
-    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #ffdb4d;
+    transform: scale(1.05);
+  }
+  
+  /* Skills Section */
+  .skills {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
     display: inline-block;
-    margin-top: 1rem;
-}
-
-.button:hover {
-    background-color: #e65a50;
-    transform: translateY(-2px);
-}
+  }
+  
+  .skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .skills li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .skills li:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px);
+  }
 
 /* Mobile-first media queries */
 @media (min-width: 768px) {
