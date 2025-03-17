@@ -67,6 +67,7 @@
 .projectTitle {
     font-size: 1.3rem;
     color: #2d3436;
+    margin-left: 1rem;
     margin-bottom: 0.5rem; /* Reduced margin for consistent spacing */
     font-weight: 600;
     letter-spacing: 0.5px;
