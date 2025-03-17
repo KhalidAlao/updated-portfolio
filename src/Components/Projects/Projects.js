@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import styles from './Projects.module.css';
 import ProjectData from '../ProjectData/ProjectData';
 
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
   return (
-    <section className={styles.projectsSection} id="projects">
+    <section ref={ref} className={styles.projectsSection} id="projects">
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.projectsGrid}>
         {ProjectData.map((project, index) => (
@@ -20,6 +20,6 @@ const Projects = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Projects;

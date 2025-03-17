@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
@@ -10,15 +10,16 @@ import Footer from "./Components/Footer/Footer";
 
 
 function App() {
+  const projectsRef = useRef(null);
   return (
     <Router>
       <div className="App">
         <Header />
         <div className="main-content">
           <Routes>
-            <Route path="/" element={<Hero />} />
+            <Route path="/" element={<Hero projectsRef={projectsRef} />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<Projects ref={projectsRef} />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
