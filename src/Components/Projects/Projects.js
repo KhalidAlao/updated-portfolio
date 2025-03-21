@@ -10,7 +10,7 @@ const Projects = forwardRef((props, ref) => {
       <div className={styles.projectsGrid}>
         {ProjectData.map((project, index) => (
           <div key={index} className={styles.projectCard}>
-            <img src={project.image} alt={project.title} className={styles.projectImage} />
+            <img src={project.image} alt={project.title} className={styles.projectImage} loading="lazy" />
             <h3 className={styles.projectTitle}>{project.title}</h3>
             <p className={styles.projectDescription}>{project.description}</p>
             <a href={project.githubLink} className={styles.projectLink}>GitHub</a>
