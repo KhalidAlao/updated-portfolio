@@ -21,6 +21,13 @@ const ProjectData = [
       image: "https://i.ibb.co/NdhDSvWS/Screenshot-2025-03-16-at-12-52-23.png",
       githubLink: "https://github.com/KhalidAlao/Javascript-Calculator",
       demoLink: " https://khalidalao.github.io/Javascript-Calculator" 
+    },
+    {
+      title: "Bitcoin Price Tracker",
+      description: "A responsive React app that displays real-time Bitcoin prices using the CoinCap API. It features a clean, modern UI with dynamic updates, loading indicators, and error handling. Built with React and custom CSS, it's a lightweight single-page application ideal for showcasing API integration and frontend development skills.",
+      image: "https://i.postimg.cc/ydPtTY7c/temp-Image7b-LSSr.avif",
+      githubLink: "https://github.com/KhalidAlao/real-time-data-visualizer",
+      demoLink: " https://khalidalao.github.io/bitcoin-price-tracker" 
     }
     
    
