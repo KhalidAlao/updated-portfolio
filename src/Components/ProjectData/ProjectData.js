@@ -24,10 +24,19 @@ const ProjectData = [
     },
     {
       title: "Bitcoin Price Tracker",
-      description: "A responsive React app that displays real-time Bitcoin prices using the CoinCap API. It features a clean, modern UI with dynamic updates, loading indicators, and error handling. Built with React and custom CSS, it's a lightweight single-page application ideal for showcasing API integration and frontend development skills.",
+      description: "A responsive React app that displays real-time Bitcoin prices using the CoinGecko API. It features a clean, modern UI with dynamic updates, loading indicators, and error handling. Built with React and custom CSS, it's a lightweight single-page application ideal for showcasing API integration and frontend development skills.",
       image: "https://i.postimg.cc/ydPtTY7c/temp-Image7b-LSSr.avif",
       githubLink: "https://github.com/KhalidAlao/real-time-data-visualizer",
       demoLink: " https://khalidalao.github.io/real-time-data-visualizer" 
+    },
+
+    {
+      title: "CLI Expense Tracker 💻",
+      description: "A terminal-first financial manager with SQLite backend. Features CRUD operations, automated backups, and robust input validation. Built with Bash scripting and Unix philosophy principles.",
+      image: "https://i.postimg.cc/fyKK30zd/temp-Imageal-RVnt.avif'", 
+      githubLink: "https://github.com/KhalidAlao/expense-tracker",
+      demoLink: "https://github.com/KhalidAlao/expense-tracker#-usage-examples"
+      
     }
     
    
