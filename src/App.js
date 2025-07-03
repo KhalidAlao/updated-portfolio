@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import NotFound from "./Components/NotFound/NotFound";
 
 
 function App() {
@@ -16,12 +17,13 @@ function App() {
       <div className="App">
         <Header />
         <div className="main-content">
-          <Routes>
-            <Route path="/" element={<Hero projectsRef={projectsRef} />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects ref={projectsRef} />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+        <Routes>
+  <Route path="/" element={<Hero projectsRef={projectsRef} />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/projects" element={<Projects ref={projectsRef} />} />
+  <Route path="/contact" element={<Contact />} />
+  <Route path="*" element={<NotFound />} />
+</Routes>
         </div>
         <Footer />
       </div>
