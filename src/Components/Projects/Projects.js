@@ -3,7 +3,15 @@ import styles from './Projects.module.css';
 import ProjectData from '../ProjectData/ProjectData';
 
 
+
+
+
 const Projects = forwardRef((props, ref) => {
+  
+  const uniqueTags = new Set(ProjectData.flatMap( project => project.tags));
+
+
+
   return (
     <article ref={ref} className={styles.projectsSection} id="projects">
       <h2 className={styles.title}>Projects</h2>
