@@ -35,7 +35,7 @@ const ProjectData = [
     },
 
     {
-      title: "CLI Expense Tracker 💻",
+      title: "CLI Expense Tracker",
       description: "A terminal-first financial manager with SQLite backend. Features CRUD operations, automated backups, and robust input validation. Built with Bash scripting and Unix philosophy principles.",
       image: "https://i.postimg.cc/fyKK30zd/temp-Imageal-RVnt.avif'", 
       githubLink: "https://github.com/KhalidAlao/expense-tracker",
