@@ -10,7 +10,7 @@
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 16px 20px;
+  padding: 20px 20px;           /* increased from 16px */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,17 +26,19 @@
   background: linear-gradient(135deg, #00bcd4, #6fe7d4);
   color: #021016;
   font-weight: 700;
-  padding: 8px 12px;
-  border-radius: 8px;
+  padding: 10px 16px;            /* increased from 8px 12px */
+  border-radius: 10px;            /* slightly larger radius */
+  font-size: 1.4rem;              /* larger font size */
 }
 
 .name {
   font-weight: 600;
+  font-size: 1.2rem;              /* added font size */
 }
 
 .nav {
   display: flex;
-  gap: 20px;
+  gap: 28px;                      /* increased from 20px */
 }
 
 .link {
@@ -44,6 +46,8 @@
   color: #9aa6b2;
   font-weight: 500;
   transition: 0.2s ease;
+  font-size: 1.1rem;              /* added font size */
+  padding: 6px 0;                  /* optional vertical padding for larger click area */
 }
 
 .link:hover {
@@ -53,4 +57,25 @@
 .active {
   color: #00bcd4;
   font-weight: 600;
+  font-size: 1.1rem;              /* same as link to keep consistent */
+}
+
+/* Optional: reduce spacing on smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px 16px;
+  }
+  .nav {
+    gap: 16px;
+  }
+  .link {
+    font-size: 1rem;
+  }
+  .logo {
+    padding: 8px 12px;
+    font-size: 1.2rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
 }

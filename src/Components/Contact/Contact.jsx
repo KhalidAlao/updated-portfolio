@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <section className={styles.contactSection} id="contact">
       <h2 className={styles.title}>Contact Me</h2>
-      <p className={styles.description}>Feel free to reach out!</p>
+      <p className={styles.description}>Feel free to reach out</p>
       <div className={styles.emailLink} onClick={handleEmailClick}>
         <SiGmail className={styles.gmailIcon} />
         <span>Send me an email</span>

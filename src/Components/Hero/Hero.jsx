@@ -8,8 +8,7 @@ export default function Hero() {
         <h1>Computer Science Student</h1>
 
         <p className={styles.lead}>
-          Building enterprise-grade network security labs, segmented
-          architectures, and automated CI/CD pipelines.
+          Welcome to my portfolio.
         </p>
 
         <div className={styles.actions}>

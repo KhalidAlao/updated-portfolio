@@ -27,7 +27,7 @@ const ProjectData = [
       image: "https://i.ibb.co/DxjPSPB/Screenshot-2025-03-16-at-09-11-07.png",
       githubLink: "https://github.com/KhalidAlao/Snake-Game",
       demoLink: " https://khalidalao.github.io/Snake-Game",
-      tech: ["JavaScript", "HTML5", "CSS3", "Game Development"]
+      tech: ["JavaScript", "HTML5", "CSS3", "Spring Boot", "PostgreSQL", "Game Development"]
     },
 
     {
