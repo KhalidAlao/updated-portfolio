@@ -1,54 +1,31 @@
-import React from 'react';
-import styles from './Hero.module.css';
-import { 
-  FaReact, 
-  FaJs, 
-  FaHtml5, 
-  FaCss3Alt,  
-  FaPython, 
-  FaGitAlt,
-  FaFigma,
-  FaAccessibleIcon
-} from 'react-icons/fa';
-import { SiFramer } from 'react-icons/si';
+import styles from "./Hero.module.css";
+import { Link } from "react-router-dom";
 
-const Hero = () => {
-  
-
-  const skills = [
-    { name: 'React', icon: <FaReact /> },
-    { name: 'JavaScript', icon: <FaJs /> },
-    { name: 'HTML5', icon: <FaHtml5 /> },
-    { name: 'CSS3', icon: <FaCss3Alt /> },
-    { name: 'Python', icon: <FaPython /> },
-    { name: 'Git', icon: <FaGitAlt /> },
-    { name: 'Framer Motion', icon: <SiFramer /> },
-    { name: 'UI/UX Design', icon: <FaFigma /> },
-    { name: 'Accessibility', icon: <FaAccessibleIcon /> },
-  ];
-
-  
-
+export default function Hero() {
   return (
-    <section className={styles.hero} id="hero">
-      <h1 className={styles.title}>Hi, I'm Khalid Alao</h1>
-      <div className={styles.buttonWrapper}>
-        
-      </div>
-      
-      <div className={styles.skills}>
-        <h2 className={styles.skillsTitle}>Technical Proficiencies</h2>
-        <ul className={styles.skillsList}>
-          {skills.map((skill) => (
-            <li key={skill.name} className={styles.skillItem}>
-              <span className={styles.skillIcon}>{skill.icon}</span>
-              <span className={styles.skillName}>{skill.name}</span>
-            </li>
-          ))}
-        </ul>
+    <section className={styles.hero}>
+      <div className={styles.content}>
+        <h1>Computer Science Student</h1>
+
+        <p className={styles.lead}>
+          Building enterprise-grade network security labs, segmented
+          architectures, and automated CI/CD pipelines.
+        </p>
+
+        <div className={styles.actions}>
+          <Link to="/projects" className={styles.primaryBtn}>
+            View Projects
+          </Link>
+          <a
+            href="https://github.com/KhalidAlao"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.secondaryBtn}
+          >
+            GitHub
+          </a>
+        </div>
       </div>
     </section>
   );
-};
-
-export default Hero;
+}

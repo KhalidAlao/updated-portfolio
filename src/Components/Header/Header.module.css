@@ -1,20 +1,56 @@
 .header {
-    background-color: #2C3E50;
-    color: #ECF0F1;
-    padding: 10px 20px;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-  }
-  
-  .nav a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav a:hover {
-    text-decoration: underline;
-  }
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: rgba(11, 15, 20, 0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  background: linear-gradient(135deg, #00bcd4, #6fe7d4);
+  color: #021016;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #9aa6b2;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.active {
+  color: #00bcd4;
+  font-weight: 600;
+}
