@@ -11,7 +11,7 @@ const Projects = forwardRef((props, ref) => {
 
       <div className={styles.grid}>
         {projects.map((project) => (
-          <article key={project.id} className={styles.card}>
+          <article key={project.title} className={styles.card}>
             {project.image && (
               <img 
                 src={project.image} 
