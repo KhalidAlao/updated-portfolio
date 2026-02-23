@@ -1,11 +1,24 @@
 const ProjectData = [
+
+
+  {
+    
+    title: "Enterprise Network Security Lab",
+    description:
+      "Segmented enterprise architecture with nftables firewall policies, DMZ isolation, and attack simulation.",
+    image: "https://i.ibb.co/VY45C3m4/Logical-Network-Diagram-drawio.png",
+    githubLink: "https://github.com/KhalidAlao/enterprise-network-security-lab",
+    
+    tech: ["Cybersecurity", "Network Security", "Firewall", "nftables", "Infrastructure"]
+  },
+    
     {
       title: "4-7-8 Breathing Guide",
       description: "A guided breathing application built with React and Framer Motion, designed to help users practice the 4-7-8 breathing technique for relaxation.",
       image: "https://i.ibb.co/993HdN60/momo-studio-DXZj4-Ftk-H8w-unsplash.jpg",
       githubLink: "https://github.com/KhalidAlao/breathwork-guide",
       demoLink: "https://khalidalao.github.io/breathwork-guide",
-      tags: ["Frontend", "React", "Framer Motion"]
+      tech: ["React", "Framer Motion", "UI/UX", "Frontend"]
     },
 
     {
@@ -14,7 +27,7 @@ const ProjectData = [
       image: "https://i.ibb.co/DxjPSPB/Screenshot-2025-03-16-at-09-11-07.png",
       githubLink: "https://github.com/KhalidAlao/Snake-Game",
       demoLink: " https://khalidalao.github.io/Snake-Game",
-      tags: ["Frontend"]
+      tech: ["JavaScript", "HTML5", "CSS3", "Game Development"]
     },
 
     {
@@ -23,7 +36,7 @@ const ProjectData = [
       image: "https://i.ibb.co/NdhDSvWS/Screenshot-2025-03-16-at-12-52-23.png",
       githubLink: "https://github.com/KhalidAlao/Javascript-Calculator",
       demoLink: " https://khalidalao.github.io/Javascript-Calculator",
-      tags: ["Frontend"]
+      tech: ["JavaScript", "HTML5", "CSS3", "DOM Manipulation"]
     },
     {
       title: "Crytocurrency Price Tracker",
@@ -31,7 +44,7 @@ const ProjectData = [
       image: "https://i.postimg.cc/ydPtTY7c/temp-Image7b-LSSr.avif",
       githubLink: "https://github.com/KhalidAlao/real-time-data-visualizer",
       demoLink: " https://khalidalao.github.io/real-time-data-visualizer",
-      tags: ["React", "API", "Frontend", "Responsive Design"]
+      tech: ["React", "REST API", "Axios/Fetch", "Responsive Design", "Real‑time Data"]
     },
 
     {
@@ -39,11 +52,10 @@ const ProjectData = [
       description: "A terminal-first financial manager with SQLite backend. Features CRUD operations, automated backups, and robust input validation. Built with Bash scripting and Unix philosophy principles.",
       image: "https://i.postimg.cc/fyKK30zd/temp-Imageal-RVnt.avif'", 
       githubLink: "https://github.com/KhalidAlao/expense-tracker",
-      demoLink: "https://github.com/KhalidAlao/expense-tracker#-usage-examples",
-      tags: ["Bash", "SQLite", "CLI", "Backend"]
+      tech: ["Bash", "SQLite", "Command Line Tool", "Database", "Backend"]
       
     }
-    
+     
    
   ];
   

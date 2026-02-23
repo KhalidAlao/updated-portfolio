@@ -12,19 +12,22 @@ import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   const projectsRef = useRef(null);
+
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Header />
-        <div className="main-content">
-        <Routes>
-  <Route path="/" element={<Hero projectsRef={projectsRef} />} />
-  <Route path="/about" element={<About />} />
-  <Route path="/projects" element={<Projects ref={projectsRef} />} />
-  <Route path="/contact" element={<Contact />} />
-  <Route path="*" element={<NotFound />} />
-</Routes>
-        </div>
+        
+        <main className="main-content" style={{ flex: 1 }}>
+          <Routes>
+            <Route path="/" element={<Hero projectsRef={projectsRef} />} />
+            <Route path="/about" element={<About />} />
+            
+            <Route path="/projects" element={<Projects ref={projectsRef} />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>
