@@ -40,7 +40,7 @@ const Projects = forwardRef((props, ref) => {
                 rel="noopener noreferrer"
                 className={styles.githubLink}
               >
-                Source Code
+                View Repository
               </a>
               {project.demoLink && (          
                 <a
