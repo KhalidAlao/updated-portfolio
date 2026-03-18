@@ -1,6 +1,23 @@
 const ProjectData = [
 
 
+
+
+   {
+    
+    title: "SOC Simulation & Detection Engineering Project",
+    description:
+      "A Security Operations Center simulation. Deployed Wazuh SIEM on Ubuntu (UTM emulated on Apple Silicon), created custom SSH brute force detection rules mapped to MITRE ATT&CK (T1110), and implemented automated active response.",
+    image: "https://i.ibb.co/tpkS6hRN/SOC-Lab-Architecture.png" ,
+    githubLink: "https://github.com/KhalidAlao/Soc-Simulation",
+    
+    tech: ["Wazuh",
+    "Detection Engineering",
+    "Incident Response",
+    "Security Operations",
+    "Cybersecurity"]
+  },
+
   {
     
     title: "Enterprise Network Security Lab",
@@ -45,16 +62,9 @@ const ProjectData = [
       githubLink: "https://github.com/KhalidAlao/real-time-data-visualizer",
       demoLink: " https://khalidalao.github.io/real-time-data-visualizer",
       tech: ["React", "REST API", "Axios/Fetch", "Responsive Design", "Real‑time Data"]
-    },
-
-    {
-      title: "CLI Expense Tracker",
-      description: "A terminal-first financial manager with SQLite backend. Features CRUD operations, automated backups, and robust input validation. Built with Bash scripting and Unix philosophy principles.",
-      image: "https://i.postimg.cc/fyKK30zd/temp-Imageal-RVnt.avif'", 
-      githubLink: "https://github.com/KhalidAlao/expense-tracker",
-      tech: ["Bash", "SQLite", "Command Line Tool", "Database", "Backend"]
-      
     }
+
+   
      
    
   ];
