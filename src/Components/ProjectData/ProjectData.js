@@ -2,8 +2,15 @@ const ProjectData = [
 
 
 
-
-   {
+{
+   title: "Fintech Cyber Risk Presentation",
+    description:
+      "A portfolio project demonstrating cloud risk tracking, operational resilience, and product governance using Excel & Power BI (web version).",
+    image: "" ,
+    githubLink: "https://github.com/KhalidAlao/Fintech-Cyber-Risk-Presentation",
+    
+    tech: ["Power BI", "Excel", "Cyber Risk", "Risk Register", "Operational Resilience", "Product Governance"]
+  }, {
     
     title: "SOC Simulation & Detection Engineering Project",
     description:
