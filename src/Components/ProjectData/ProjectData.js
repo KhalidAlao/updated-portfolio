@@ -4,7 +4,7 @@ const ProjectData = [
    title: "Automated Procurement Audit & KPI Tracker",
     description:
       "Python pipeline that watches a folder for POE documents, audits marketing POs against spend, and visualizes bottlenecks. ",
-    image: "" ,
+    image: "https://i.ibb.co/XfZSpsRC/Screenshot-2026-04-09-at-20-21-44.png" ,
     githubLink: "https://github.com/KhalidAlao/Procurement-Audit-KPI-Tracker",
     
     tech: ["Procurement Analytics", "Watchdog", "Python Automation", "SQLite", "Pandas"]
