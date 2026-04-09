@@ -1,15 +1,23 @@
 const ProjectData = [
 
-
+{
+   title: "Automated Procurement Audit & KPI Tracker",
+    description:
+      "Python pipeline that watches a folder for POE documents, audits marketing POs against spend, and visualizes bottlenecks. ",
+    image: "" ,
+    githubLink: "https://github.com/KhalidAlao/Procurement-Audit-KPI-Tracker",
+    
+    tech: ["Procurement Analytics", "Watchdog", "Python Automation", "SQLite", "Pandas"]
+  },
 
 {
    title: "Fintech Cyber Risk Presentation",
     description:
       "A portfolio project demonstrating cloud risk tracking, operational resilience, and product governance using Excel & Power BI (web version).",
-    image: "" ,
+    image: "https://i.ibb.co/1t9rDxpw/Operational-Risk-Dashboard.png" ,
     githubLink: "https://github.com/KhalidAlao/Fintech-Cyber-Risk-Presentation",
     
-    tech: ["Power BI", "Excel", "Cyber Risk", "Risk Register", "Operational Resilience", "Product Governance"]
+    tech: ["Power BI", "Excel", "Cyber Risk", "Operational Resilience", "Product Governance"]
   }, {
     
     title: "SOC Simulation & Detection Engineering Project",
