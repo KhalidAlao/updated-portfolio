@@ -1,5 +1,15 @@
 const ProjectData = [
 
+  {
+   title: "Resident Data Platform",
+    description:
+    "Azure-style data engineering project that simulates resident services reporting pipelines using ETL workflows, data quality validation, SQL reporting layers and cloud infrastructure concepts inspired by Azure Data Factory, Databricks and Synapse Analytics. ",
+    image: "" ,
+    githubLink: "https://github.com/KhalidAlao/resident-data-platform",
+    
+    tech: ["Data Engineering", "Python", "ETL Pipelines", "SQL", "Azure"]
+  },
+
 {
    title: "Automated Procurement Audit & KPI Tracker",
     description:
