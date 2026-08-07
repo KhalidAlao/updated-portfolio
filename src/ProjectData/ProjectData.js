@@ -1,6 +1,4 @@
-// Featured projects use Situation / Task / Action structure.
-// There is deliberately no "Result" field — add one only when you have a real,
-// verifiable outcome to report. Don't invent metrics to fill the gap.
+
 
 const ProjectData = [
   {

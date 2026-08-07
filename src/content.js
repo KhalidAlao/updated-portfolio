@@ -1,12 +1,12 @@
 // Single source of truth for site copy.
-// Edit this file to update text anywhere on the site — no JSX changes needed.
+// Edit this file to update text anywhere on the site, no JSX changes needed.
 
 const content = {
   hero: {
     eyebrow: "Computer Science graduate",
     headline: "Building secure, data-driven applications",
     subheadline:
-      "From full-stack web apps to SIEM detection engineering and ETL pipelines — I like solving problems where security, data, and code intersect.",
+      "From full-stack web apps to SIEM detection engineering and ETL pipelines, I like solving problems where security, data, and code intersect.",
     ctas: [
       { label: "View projects", href: "#projects", primary: true },
       // Add a real URL here once your resume PDF is ready:
@@ -18,7 +18,7 @@ const content = {
 
   about: {
     paragraph:
-      "I'm a Computer Science student at Brunel University London, graduating in 2027, with a habit of building across the entire stack — from React interfaces to SIEM detection rules to ETL pipelines. I like picking a technology I don't know yet and shipping something real with it, whether that's a firewall-segmented network lab or a real-time data dashboard. I'm currently looking for a graduate role where I can keep doing exactly that.",
+      "I'm a Computer Science student at Brunel University London, graduating in 2027, with a habit of building across the entire stack: from React interfaces to SIEM detection rules to ETL pipelines. I like picking a technology I don't know yet and shipping something real with it, whether that's a firewall-segmented network lab or a real-time data dashboard. I'm currently looking for a graduate role where I can keep doing exactly that.",
   },
 
   skills: [

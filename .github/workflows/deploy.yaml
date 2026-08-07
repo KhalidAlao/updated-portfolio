@@ -1,12 +1,10 @@
 name: Build and deploy portfolio
 
-# Runs automatically on every push to main — including a commit that only
-# adds a new entry to src/ProjectData/ProjectData.js. No need to run
-# `npm run deploy` locally anymore; push to main and this handles the rest.
+
 on:
   push:
     branches: [main, master]
-  workflow_dispatch: # also allows manually re-running from the Actions tab
+  workflow_dispatch: 
 
 permissions:
   contents: write
