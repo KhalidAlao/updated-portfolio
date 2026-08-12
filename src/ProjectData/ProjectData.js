@@ -11,7 +11,7 @@ const ProjectData = [
     "Design and build a complete service request management system from scratch, modeling the real workflow of a council's digital services team, for a Software Engineer placement application at the London Borough of Hillingdon.",
   action:
     "Designed the system properly before writing code — user stories, an entity-relationship diagram, and a full REST API specification — then built a 17-endpoint Flask API with JWT authentication, a normalized six-table schema (SQLAlchemy + Alembic migrations), and a forward-only status state machine enforcing different permissions per role (residents can only view their own requests; officers can triage and self-assign; only admins can resolve or close). Every change is recorded in an append-only audit log. Backed the API with 103 automated pytest tests (~90% coverage) using isolated per-test fixtures, plus a hand-written bash/curl smoke-test script. Built a dependency-free vanilla JavaScript frontend with a hand-written hash-based router, served directly by Flask to avoid CORS. Deployed to a live Postgres-backed instance on Render, validating the database's PostgreSQL-compatible design for the first time outside local SQLite.",
-  image: "/Users/khalidalao/Desktop/Screenshot 2026-08-12 at 05.13.38.png", 
+  image: "https://i.ibb.co/TxsptRgG/Screenshot-2026-08-12-at-05-18-39.png", 
   githubLink: "https://github.com/KhalidAlao/Council-Service-Request-Management-System",
   demoLink: "https://council-service-api.onrender.com",
   tech: ["Flask", "SQLAlchemy", "PostgreSQL", "REST API", "JWT Auth", "pytest", "Bash/Curl Scripting", "JavaScript", "RBAC"],
