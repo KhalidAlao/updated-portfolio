@@ -1,7 +1,23 @@
 
 
 const ProjectData = [
-  {
+{
+title: "Application Support and Incident Management Portal",
+featured: true,
+tagline: "Full-stack support platform with role-based incident lifecycle, SLA tracking, immutable audit trail, and 62 automated tests.",
+situation:
+"Support teams need a reliable way for users to report issues, for staff to triage, assign, and resolve them, and for managers to monitor SLA compliance and performance – all with a clear, auditable record of every action.",
+task:
+"Design and build a complete incident management system from scratch, modelling the real workflow of a service desk with role‑based permissions, SLA deadlines, hold‑time bookkeeping, and a full audit trail.",
+action:
+"Designed the system with user stories, an ER diagram, and a 29‑endpoint REST API spec. Built a Flask API with JWT authentication, a normalised seven‑table schema (SQLAlchemy + Alembic), and a role‑gated status state machine with granular permissions (reporters own pre‑assignment incidents; support_engineers only assigned tickets; team_lead/admin assign, reassign, close). Every mutation writes an append‑only audit log with snapshot‑based actor names. Implemented SLA tracking with response/resolution deadlines computed at triage and hold‑time bookkeeping extending deadlines on resume. Backed with 62 pytest tests (~85% core coverage), including defensive ensure_utc() handling for SQLite/PostgreSQL divergence. Built a vanilla JS multi‑page frontend (login, dashboard with role‑aware summary, filters, pagination; incident detail with audit log, SLA progress bar, and role‑gated forms) served directly by Flask to avoid CORS. Deployed to Render with PostgreSQL. Diagnosed and fixed real bugs (missing reported_priority_text UI field, missing triage/assignment controls, TypeError in hold‑time for untriaged incidents, double‑listener duplicate submissions, and an apiJson() fetch wrapper masking server errors) – all documented rather than hidden.",
+image: "https://i.ibb.co/dJB0CCGR/Screenshot-2026-08-14-at-02-25-10.png",
+githubLink: "https://github.com/KhalidAlao/Application-Support-and-Incident-Management-Portal",
+demoLink: "https://application-support-and-incident.onrender.com",
+tech: ["Flask", "SQLAlchemy", "PostgreSQL", "REST API", "JWT Auth", "pytest", "SLA Tracking", "JavaScript", "RBAC"],
+}
+
+  , {
   title: "Council Service Request Management System",
   featured: true,
   tagline: "Full-stack council service request platform with role-based workflow, a complete audit trail, and 103 automated tests.",

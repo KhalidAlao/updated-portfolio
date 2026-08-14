@@ -13,7 +13,7 @@ export default function Contact() {
           <h2 id="contact-title" className={styles.title}>
             Let&apos;s talk.
           </h2>
-          <p className={styles.subtitle}>Open to graduate roles — reach out any time.</p>
+          <p className={styles.subtitle}>Open to placement roles — reach out any time.</p>
 
           <ul className={styles.list}>
             <li>
